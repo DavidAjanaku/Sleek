@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </button>
               <button className="hover:opacity-80 transition-opacity duration-200">
                 <Image 
-                  src="/assets/x.png" 
+                  src="/assets/X.png" 
                   alt="X (Twitter)" 
                   width={18} 
                   height={18}
