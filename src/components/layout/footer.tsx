@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Inter } from 'next/font/google';
-
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -87,24 +87,24 @@ const Footer: React.FC = () => {
               PAGES
             </h2>
          <nav className={`${inter.className} space-y-3 text-sm`}>
-  <a href="/" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  <Link href="/" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Home
-  </a>
-  <a href="/about" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/about" className="block text-gray-300 hover:text-white transition-colors duration-200">
     About
-  </a>
-  <a href="/shop" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/shop" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Shop
-  </a>
-  <a href="/collection" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/collection" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Collection
-  </a>
-  <a href="/blog" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/blog" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Blog
-  </a>
-  <a href="/404" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/404" className="block text-gray-300 hover:text-white transition-colors duration-200">
     404
-  </a>
+  </Link>
 </nav>
 
           </div>
@@ -115,18 +115,18 @@ const Footer: React.FC = () => {
               CATEGORIES
             </h2>
           <nav className={`${inter.className} space-y-3 text-sm`}>
-  <a href="/products" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  <Link href="/products" className="block text-gray-300 hover:text-white transition-colors duration-200">
     All Products
-  </a>
-  <a href="/cream" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/cream" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Cream
-  </a>
-  <a href="/serum" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/serum" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Serum
-  </a>
-  <a href="/spray" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/spray" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Spray
-  </a>
+  </Link>
 </nav>
 
 
@@ -134,12 +134,12 @@ const Footer: React.FC = () => {
               ACCOUNT
             </h2>
           <nav className={`${inter.className} space-y-3 text-sm`}>
-  <a href="/favourite" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  <Link href="/favourite" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Favourite
-  </a>
-  <a href="/my-account" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/my-account" className="block text-gray-300 hover:text-white transition-colors duration-200">
     My Account
-  </a>
+  </Link>
 </nav>
 
           </div>
@@ -150,15 +150,15 @@ const Footer: React.FC = () => {
               SUPPORT
             </h2>
          <nav className={`${inter.className} space-y-3 text-sm`}>
-  <a href="/contact" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  <Link href="/contact" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Contact
-  </a>
-  <a href="/faqs" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/faqs" className="block text-gray-300 hover:text-white transition-colors duration-200">
     FAQs
-  </a>
-  <a href="/terms" className="block text-gray-300 hover:text-white transition-colors duration-200">
+  </Link>
+  <Link href="/terms" className="block text-gray-300 hover:text-white transition-colors duration-200">
     Terms & Conditions
-  </a>
+  </Link>
 </nav>
 
           </div>

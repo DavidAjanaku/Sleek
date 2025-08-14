@@ -11,14 +11,13 @@ interface TestimonialProps {
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 const Testimonial: React.FC<TestimonialProps> = ({
-  quote = "I'VE TRIED TOO MANY SCALP CREAMS THAT OVERDO IT. THIS ONE ACTUALLY WORKS.",
+  quote = "I&apos;VE TRIED TOO MANY SCALP CREAMS THAT OVERDO IT. THIS ONE ACTUALLY WORKS.",
   author = "Christianus Durotoye",
   title = "Founder Sleek Enterprise"
 }) => {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-8">
       <div className="max-w-4xl mx-auto text-center">
-        
         <div className="flex justify-center mb-8">
           <div className="relative w-20 h-20">
             <Image
@@ -38,22 +37,17 @@ const Testimonial: React.FC<TestimonialProps> = ({
           </div>
         </div>
         
- 
         <blockquote className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-12 max-w-5xl mx-auto">
-          "{quote}"
+          &ldquo;{quote}&rdquo;
         </blockquote>
         
-    
         <div className="space-y-2">
-       <p className={`${inter.className} text-lg font-semibold text-gray-900`}>
-  {author}
-</p>
-<p className={`${inter.className} text-gray-600 text-sm font-light`}>
-  {title}
-</p>
-
-          
-        
+          <p className={`${inter.className} text-lg font-semibold text-gray-900`}>
+            {author}
+          </p>
+          <p className={`${inter.className} text-gray-600 text-sm font-light`}>
+            {title}
+          </p>
           <div className="flex justify-center mt-4">
             {[...Array(5)].map((_, i) => (
               <svg

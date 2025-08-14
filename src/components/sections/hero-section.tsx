@@ -86,7 +86,7 @@ export default function HeroSection() {
               {/* Description */}
             <p className={`${inter.className} text-lg md:text-xl text-[#777777] leading-relaxed max-w-2xl mb-12 font-normal`}
               >
-                Whether you're bald by choice or by nature, SLEEK is made for 
+                Whether you&apos;re bald by choice or by nature, SLEEK is made for 
                 you,clean ingredients, clean design, and a smooth finish every time.
               </p>
 
